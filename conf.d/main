@@ -1,0 +1,16 @@
+#!/bin/sh -ex
+
+###################################
+# setup nginx and php fastcgi
+
+update-rc.d php-fastcgi defaults
+
+mkdir -p /var/run/nginx
+chown root:www-data /var/run/nginx
+chmod 770 /var/run/nginx
+
+###################################
+# setup postgresql
+
+PGSQL_VER=$(ls /etc/postgresql/)
+

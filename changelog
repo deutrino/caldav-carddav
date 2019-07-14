@@ -1,0 +1,6 @@
+turnkey-lepp-15.1 (1) UNRELEASED; urgency=low
+
+  * Built image by merging turnkeylinux-apps/nginx-php-fastcgi and
+    turnkeylinux-apps/postgresql by hand
+
+ -- deutrino <d@deutrino.net>  Fri, 12 Jul 2019 05:26:48 +0000
